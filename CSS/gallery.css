@@ -1,0 +1,57 @@
+body {
+    background-image: url('/Unicorn/images/dashboard.jpeg');
+    background-size: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.home {
+    background-color: black;
+    border: 2px solid black;
+    color: rgb(3, 234, 242);
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.gallery {
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.close-icon {
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+    padding: 5px 8px;
+}
+
+.form-image-upload {
+    background: #e8e8e8 none repeat scroll 0 0;
+    padding: 15px;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    width: 300px !important;
+    height: 160px !important;
+}
